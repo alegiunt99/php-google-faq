@@ -7,3 +7,23 @@
 
 
 /* CONTENT  */ 
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.questions{
+    border-bottom: 1px solid lightgray;
+}
+
+p,
+ol{
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+
+ol > li > ol{
+    list-style: lower-latin;
+}
